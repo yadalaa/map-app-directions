@@ -2,7 +2,7 @@
 let map = L.map('map', {
     layers: MQ.mapLayer(),
     center: [18.79782216079072, 98.96097433996665],
-    zoom: 12
+    zoom: 30
 });
     
 
@@ -12,7 +12,7 @@ let map = L.map('map', {
         map = L.map('map', {
             layers: MQ.mapLayer(),
             center: [18.79782216079072, 98.96097433996665],
-            zoom: 12
+            zoom: 30
         });
         
         var dir = MQ.routing.directions();
