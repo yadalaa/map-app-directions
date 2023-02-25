@@ -37,7 +37,7 @@ let map = L.map('map', {
                     popupAnchor: [0, -29]
                 });
 
-                marker = L.marker(location.latLng, {icon: custom_icon}).addTo(map);
+                marker = L.marker([18.79782216079072, 98.96097433996665], {icon: custom_icon}).addTo(map);
 
                 return marker;
             },
