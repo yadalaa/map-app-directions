@@ -1,7 +1,7 @@
 // default map layer
 let map = L.map('map', {
     layers: MQ.mapLayer(),
-    center: [35.791188, -78.636755],
+    center: [18.79782216079072, 98.96097433996665],
     zoom: 12
 });
     
@@ -11,7 +11,7 @@ let map = L.map('map', {
         // recreating new map layer after removal
         map = L.map('map', {
             layers: MQ.mapLayer(),
-            center: [35.791188, -78.636755],
+            center: [18.79782216079072, 98.96097433996665],
             zoom: 12
         });
         
